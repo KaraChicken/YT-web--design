@@ -1,4 +1,7 @@
 /* header 上方欄位 */
+ul {
+  list-style: none;
+}
 .icon {
     width: 13%;
     height: 130%;
@@ -68,6 +71,29 @@
 }
 .search-box:hover {
   background-color: rgba(134, 134, 134, 0.368);
+}
+
+.login {
+  width: 6%;
+  height: 55px;
+  color: blue;
+  border: 1px solid rgb(183, 182, 182);
+  border-radius: 50px;
+  position: fixed;
+  right: 1%;
+  top: 1.5%;
+}
+.login:hover {
+  width: 65px;
+  height: 55px;
+  color: blue;
+  background-color: rgba(127, 127, 251, 0.452);
+  border: 1px solid rgb(183, 182, 182);
+  border-radius: 50px;
+}
+.login img {
+  width: 45%;
+  height: 45%;
 }
 
 iframe {

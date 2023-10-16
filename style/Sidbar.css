@@ -17,3 +17,22 @@ img {
     height: 20px;
     margin-right: 7%;
 }
+
+.login {
+    width: 35%;
+    height: 10%;
+    color: blue;
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 50px;
+}
+.login:hover {
+    width: 35%;
+    height: 10%;
+    color: blue;
+    background-color: rgba(127, 127, 251, 0.452);
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 50px;
+}
+.login img {
+    float: left;
+}

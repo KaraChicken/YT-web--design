@@ -6,6 +6,9 @@
     margin-top: 0;
     /* background-color: #b4dc6e; */
 }
+.title div {
+    cursor: pointer;
+}
 .box {
     height: 5%;
     display: block;
@@ -37,28 +40,29 @@
 }
 .video-linkStart {
     width: 23%;
-    height: 20%;
+    height: 1%;
     padding: 0;
     margin: 1%;
 }
 .video-box {
     width: 100%;
     height: 100%;
-    
 }
 
 .video {
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .user-box {
+    cursor: pointer;
     position: relative;
 }
 
 .user-box p {
-
+    cursor: pointer;
     font-size: 1em;
 }
 
@@ -66,6 +70,7 @@
     width: 15%;
     height: 15%;
     border-radius: 50%;
+    margin-right: 10px;
     float: left;
     margin-bottom: 100%;
 }
@@ -75,4 +80,5 @@
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    cursor: pointer;
 }
